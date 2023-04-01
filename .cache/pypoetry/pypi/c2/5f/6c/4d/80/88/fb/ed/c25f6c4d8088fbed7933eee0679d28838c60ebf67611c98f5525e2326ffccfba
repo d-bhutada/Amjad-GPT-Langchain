@@ -1,0 +1,1 @@
+9999999999{"name": "faiss", "version": "1.5.3", "summary": "A library for efficient similarity search and clustering of dense vectors", "platform": "", "requires_dist": ["numpy"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

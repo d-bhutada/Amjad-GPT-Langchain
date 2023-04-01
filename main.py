@@ -2,14 +2,16 @@
 
 import sys, select, time, os, subprocess, sys
 
+# print(os.getenv("OPENAI_API_KEY"))
+
 if "API_SECRET" not in os.environ:
-  print("You must set an API_SECRET using the Secrets tool", file=sys.stderr)
+  print("You must set an API_SECRET using enviornment variable", file=sys.stderr)
 elif "OPENAI_API_KEY" not in os.environ:
-  print("You must set an OPENAI_API_KEY using the Secrets tool", file=sys.stderr)
+  print("You must set an OPENAI_API_KEY using enviornment variable", file=sys.stderr)
 else:
   
 
-  print("== OPENAI + REPLIT CUSTOM BOT==")
+  print("== OPENAI ==")
   print ("You have five seconds to select an option")
   print()
   print("1: Train Model\n2: Talk to your Bot\n3: Run API server (Default)\n> ", end="")

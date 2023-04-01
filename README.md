@@ -32,5 +32,4 @@ Here's a quick guide to dealing with the API part in Python
 
 # Credit
 
-All based on the [Amjad Masad Chat bot](https://ai.repl.page) by IronCladDev on Replit
-For more information on how this works, check out [Zahid Khawaja's Tutorial](https://replit.com/@zahidkhawaja/Replit-Assistant?v=1).
+Written by Deepak Bhutada
